@@ -1,0 +1,10 @@
+{
+  "replace": "false",
+  "values": [
+    "tenebris:ignionite_block",
+    "tenebris:raw_ignionite_block",
+
+    "tenebris:ignionite_ore",
+    "tenebris:deepslate_ignionite_ore"
+  ]
+}
