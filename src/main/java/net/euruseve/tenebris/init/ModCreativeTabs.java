@@ -24,6 +24,8 @@ public class ModCreativeTabs
                                 output.accept(ModItems.IGNIONITE_INGOT.get());
                                 output.accept(ModItems.RAW_IGNIONITE.get());
 
+                                output.accept(ModItems.PINK_WOOL_PAINTER.get());
+
                                 // Blocks
                                 output.accept(ModBlocks.IGNIONITE_BLOCK.get());
                                 output.accept(ModBlocks.IGNIONITE_ORE.get());
