@@ -29,6 +29,7 @@ public class ModCreativeTabs
                                 output.accept(ModItems.CHERRY.get());
 
                                 output.accept(ModItems.PINK_WOOL_PAINTER.get());
+                                output.accept(ModItems.MIRROR.get());
 
                                 // Blocks
                                 output.accept(ModBlocks.IGNIONITE_BLOCK.get());

@@ -2,6 +2,7 @@ package net.euruseve.tenebris.init;
 
 import net.euruseve.tenebris.Tenebris;
 
+import net.euruseve.tenebris.custom.items.Mirror;
 import net.euruseve.tenebris.custom.items.PinkWoolPainter;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -25,6 +26,11 @@ public class ModItems
     public static final RegistryObject<Item> PINK_WOOL_PAINTER
             = ITEMS.register("pink_wool_painter",
             () ->  new PinkWoolPainter(new Item.Properties()
+                    .stacksTo(1)));
+
+    public static final RegistryObject<Item> MIRROR
+            = ITEMS.register("mirror",
+            () ->  new Mirror(new Item.Properties()
                     .stacksTo(1)));
 
     public static final RegistryObject<Item> YELLOW_PEAR
