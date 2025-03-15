@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "tenebris:block/deepslate_ignionite_ore"
-  }
-}

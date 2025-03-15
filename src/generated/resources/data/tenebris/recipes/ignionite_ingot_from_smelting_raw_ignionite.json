@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "ingionite",
+  "ingredient": {
+    "item": "tenebris:raw_ignionite"
+  },
+  "result": "tenebris:ignionite_ingot"
+}

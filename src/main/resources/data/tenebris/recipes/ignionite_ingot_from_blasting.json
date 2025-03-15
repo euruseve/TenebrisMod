@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "tenebris:raw_ignionite"
-  },
-  "result": "tenebris:ignionite_ingot",
-  "experience": 0.4,
-  "cookingtime": 100
-}

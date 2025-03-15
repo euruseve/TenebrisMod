@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_deepslate_ignionite_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tenebris:deepslate_ignionite_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tenebris:ignionite_ingot_from_blasting_deepslate_ignionite_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_deepslate_ignionite_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tenebris:ignionite_ingot_from_blasting_deepslate_ignionite_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

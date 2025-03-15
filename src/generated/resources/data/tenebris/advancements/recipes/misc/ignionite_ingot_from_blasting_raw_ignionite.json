@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_ignionite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tenebris:raw_ignionite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tenebris:ignionite_ingot_from_blasting_raw_ignionite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_ignionite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tenebris:ignionite_ingot_from_blasting_raw_ignionite"
+    ]
+  },
+  "sends_telemetry_event": false
+}

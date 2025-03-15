@@ -1,0 +1,13 @@
+// 1.20.1	2025-03-15T23:00:51.7559663	Block States: tenebris
+fe0858bb095a6f1cfc8c8137c909f097d3a96d8b assets/tenebris/blockstates/deepslate_ignionite_ore.json
+56323fd5e6e557dbf293218171b5b39bce8c846c assets/tenebris/blockstates/ignionite_block.json
+6520e72b38770786298b1dfefd80022bcb8dcf46 assets/tenebris/blockstates/ignionite_ore.json
+b6e5ec277f6cebfd362fb8609684859742669967 assets/tenebris/blockstates/raw_ignionite_block.json
+79c9c182a0b88db1542649ef1708591d5910745c assets/tenebris/models/block/deepslate_ignionite_ore.json
+8f15befa581969eaf48749c51819fcd7471bbc9c assets/tenebris/models/block/ignionite_block.json
+bc3aa2831599b40be2269ece924aef5e8a5b3d95 assets/tenebris/models/block/ignionite_ore.json
+ac5dc850e277900fb190be65e9f965354ccc71cf assets/tenebris/models/block/raw_ignionite_block.json
+8811dc576f41c0d5f5658e7a431cb02f10f72cfb assets/tenebris/models/item/deepslate_ignionite_ore.json
+ec8c991a9265b78e18add139498c2107c4685612 assets/tenebris/models/item/ignionite_block.json
+3fd34f8706f8ea1ba9fb84737e3ab9a74c95877c assets/tenebris/models/item/ignionite_ore.json
+ca62ec831f8b5cdeb9ee6c3d622c50b653dcabe7 assets/tenebris/models/item/raw_ignionite_block.json

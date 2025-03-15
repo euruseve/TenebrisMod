@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "tenebris:block/raw_ignionite_block"
-  }
-}

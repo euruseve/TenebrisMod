@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tenebris:ignionite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "tenebris:ignionite_ingot"
+  }
+}

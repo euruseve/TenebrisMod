@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:glass_pane"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "pattern": [
+    "#",
+    "A",
+    "A"
+  ],
+  "result": {
+    "item": "tenebris:mirror"
+  },
+  "show_notification": true
+}
