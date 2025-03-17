@@ -4,9 +4,7 @@ import net.euruseve.tenebris.Tenebris;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.DropExperienceBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -40,6 +38,20 @@ public class ModBlocks
                     () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE)
                             .requiresCorrectToolForDrops(),
                             UniformInt.of(3,4)));
+
+
+    public static final RegistryObject<Block> IGNIONITE_STAIRS =
+            registerBlock("ignionite_stair",
+                    () -> new StairBlock(()-> ModBlocks.IGNIONITE_BLOCK.get().defaultBlockState(),
+                            BlockBehaviour.Properties.copy(Blocks.QUARTZ_STAIRS)
+                                    .sound(SoundType.METAL)));
+
+
+    public static final RegistryObject<Block> IGNIONITE_SLABS =
+            registerBlock("ignionite_slab",
+                    () -> new SlabBlock(
+                            (BlockBehaviour.Properties.copy(Blocks.QUARTZ_SLAB))
+                                    .sound(SoundType.METAL)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)

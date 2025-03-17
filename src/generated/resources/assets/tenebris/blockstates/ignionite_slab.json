@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tenebris:block/ignionite_slab"
+    },
+    "type=double": {
+      "model": "tenebris:block/ignionite_block"
+    },
+    "type=top": {
+      "model": "tenebris:block/ignionite_slab_top"
+    }
+  }
+}

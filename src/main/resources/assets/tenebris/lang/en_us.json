@@ -16,5 +16,9 @@
   "block.tenebris.ignionite_block": "Block of Ignionite",
   "block.tenebris.ignionite_ore": "Ignionite Ore",
   "block.tenebris.deepslate_ignionite_ore": "Deepslate Ignionite Ore",
-  "block.tenebris.raw_ignionite_block": "Block of Raw Ignionite"
+  "block.tenebris.raw_ignionite_block": "Block of Raw Ignionite",
+
+  "block.tenebris.ignionite_slab": "Ignionite Slab",
+  "block.tenebris.ignionite_stair": "Ignionite Stairs"
+
 }

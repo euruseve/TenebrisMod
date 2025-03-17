@@ -1,5 +1,7 @@
-// 1.20.1	2025-03-15T23:00:51.7576931	Loot Tables
+// 1.20.1	2025-03-17T20:05:54.1746295	Loot Tables
 c91f9dc3353010f3287d57e635d3856558595683 data/tenebris/loot_tables/blocks/deepslate_ignionite_ore.json
 4243c887156c066d4ce7c77638c95c423790a6a8 data/tenebris/loot_tables/blocks/ignionite_block.json
 c991af0029d56dda1929bc280308a1c4fa38d9a1 data/tenebris/loot_tables/blocks/ignionite_ore.json
+447b5966ff351620ca7b301f6b0ee3db0657ac29 data/tenebris/loot_tables/blocks/ignionite_slab.json
+006b432cc983c24ff4cf8a4de7cbeae87e1db37a data/tenebris/loot_tables/blocks/ignionite_stair.json
 0203e19b43dbd5ffecab5f43cc9bd4f3637857b5 data/tenebris/loot_tables/blocks/raw_ignionite_block.json

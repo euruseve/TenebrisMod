@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "tenebris:block/ignionite_block",
+    "side": "tenebris:block/ignionite_block",
+    "top": "tenebris:block/ignionite_block"
+  }
+}

@@ -1,6 +1,8 @@
 {
   "values": [
     "tenebris:ignionite_block",
-    "tenebris:raw_ignionite_block"
+    "tenebris:raw_ignionite_block",
+    "tenebris:ignionite_slab",
+    "tenebris:ignionite_stair"
   ]
 }

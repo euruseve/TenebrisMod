@@ -32,6 +32,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                         ModBlocks.DEEPSLATE_IGNIONITE_ORE.get(),
                         ModItems.RAW_IGNIONITE.get()
                 ));
+
+        this.dropSelf(ModBlocks.IGNIONITE_STAIRS.get());
+        this.add(ModBlocks.IGNIONITE_SLABS.get(),
+                block -> createSlabItemTable(ModBlocks.IGNIONITE_SLABS.get()));
     }
 
     @Override

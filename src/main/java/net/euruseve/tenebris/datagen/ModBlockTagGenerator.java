@@ -25,16 +25,24 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                      ModBlocks.RAW_IGNIONITE_BLOCK.get(),
 
                      ModBlocks.DEEPSLATE_IGNIONITE_ORE.get(),
-                     ModBlocks.IGNIONITE_ORE.get()
+                     ModBlocks.IGNIONITE_ORE.get(),
+
+                     ModBlocks.IGNIONITE_SLABS.get(),
+                     ModBlocks.IGNIONITE_STAIRS.get()
                 );
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.IGNIONITE_BLOCK.get(),
-                     ModBlocks.RAW_IGNIONITE_BLOCK.get());
+                     ModBlocks.RAW_IGNIONITE_BLOCK.get(),
+
+                     ModBlocks.IGNIONITE_SLABS.get(),
+                     ModBlocks.IGNIONITE_STAIRS.get()
+                );
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.IGNIONITE_ORE.get(),
-                     ModBlocks.DEEPSLATE_IGNIONITE_ORE.get());
+                     ModBlocks.DEEPSLATE_IGNIONITE_ORE.get()
+                );
     }
 
     @Override

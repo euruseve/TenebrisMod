@@ -36,6 +36,8 @@ public class ModCreativeTabs
                                 output.accept(ModBlocks.IGNIONITE_ORE.get());
                                 output.accept(ModBlocks.DEEPSLATE_IGNIONITE_ORE.get());
                                 output.accept(ModBlocks.RAW_IGNIONITE_BLOCK.get());
+                                output.accept(ModBlocks.IGNIONITE_STAIRS.get());
+                                output.accept(ModBlocks.IGNIONITE_SLABS.get());
                             })
                             .build());
 
