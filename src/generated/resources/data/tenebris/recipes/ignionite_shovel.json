@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "i": {
+      "item": "tenebris:ignionite_ingot"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "i",
+    "s",
+    "s"
+  ],
+  "result": {
+    "item": "tenebris:ignionite_shovel"
+  },
+  "show_notification": true
+}

@@ -72,6 +72,52 @@ public class ModRecipeProvider extends RecipeProvider {
                                 .of(Items.AMETHYST_SHARD)
                                 .build()))
                 .save(pWriter);
+
+        /// IGNIONITE SWORD
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.IGNIONITE_SWORD.get())
+                .pattern("i")
+                .pattern("i")
+                .pattern("s")
+                .define('i', ModItems.IGNIONITE_INGOT.get())
+                .define('s', Items.STICK)
+                .unlockedBy("has_ignionite",
+                        inventoryTrigger(ItemPredicate.Builder.item()
+                                .of(ModItems.IGNIONITE_INGOT.get())
+                                .build()))
+                .save(pWriter);
+
+        /// IGNIONITE PICKAXE
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.IGNIONITE_PICKAXE.get())
+                .pattern("iii")
+                .pattern(" s ")
+                .pattern(" s ")
+                .define('i', ModItems.IGNIONITE_INGOT.get())
+                .define('s', Items.STICK)
+                .unlockedBy("has_ignionite",
+                        inventoryTrigger(ItemPredicate.Builder.item()
+                                .of(ModItems.IGNIONITE_INGOT.get())
+                                .build()))
+                .save(pWriter);
+
+
+        /// IGNIONITE SHOVEL
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.IGNIONITE_SHOVEL.get())
+                .pattern("i")
+                .pattern("s")
+                .pattern("s")
+                .define('i', ModItems.IGNIONITE_INGOT.get())
+                .define('s', Items.STICK)
+                .unlockedBy("has_ignionite",
+                        inventoryTrigger(ItemPredicate.Builder.item()
+                                .of(ModItems.IGNIONITE_INGOT.get())
+                                .build()))
+                .save(pWriter);
+
+        /// IGNIONITE AXE
+        axeRecipe(pWriter, ModItems.IGNIONITE_AXE.get(), ModItems.IGNIONITE_INGOT.get(), Items.STICK, "ignionite");
+
+        /// IGNIONITE HOE
+        hoeRecipe(pWriter, ModItems.IGNIONITE_HOE.get(), ModItems.IGNIONITE_INGOT.get(), Items.STICK, "ignionite");
     }
 
 
@@ -94,5 +140,49 @@ public class ModRecipeProvider extends RecipeProvider {
                             pCookingSerializer).group(pGroup).unlockedBy(getHasName(itemlike), has(itemlike))
                     .save(pFinishedRecipeConsumer, Tenebris.MODID + ":" + getItemName(pResult) + pRecipeName + "_" + getItemName(itemlike));
         }
+    }
+
+    protected static void axeRecipe(Consumer<FinishedRecipe> pWriter, ItemLike axe, ItemLike material, ItemLike stick, String materialName) {
+        // Left Side
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, axe)
+                .pattern("mm")
+                .pattern("ms")
+                .pattern(" s")
+                .define('m', material)
+                .define('s', stick)
+                .unlockedBy("has_" + materialName, inventoryTrigger(ItemPredicate.Builder.item().of(material).build()))
+                .save(pWriter, Tenebris.MODID + ":" + getItemName(axe) + "_left");
+
+        // Right side
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, axe)
+                .pattern("mm")
+                .pattern("sm")
+                .pattern("s ")
+                .define('m', material)
+                .define('s', stick)
+                .unlockedBy("has_" + materialName, inventoryTrigger(ItemPredicate.Builder.item().of(material).build()))
+                .save(pWriter, Tenebris.MODID + ":" + getItemName(axe) + "_right");
+    }
+
+    protected static void hoeRecipe(Consumer<FinishedRecipe> pWriter, ItemLike hoe, ItemLike material, ItemLike stick, String materialName) {
+        // Left Side
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, hoe)
+                .pattern("mm")
+                .pattern(" s")
+                .pattern(" s")
+                .define('m', material)
+                .define('s', stick)
+                .unlockedBy("has_" + materialName, inventoryTrigger(ItemPredicate.Builder.item().of(material).build()))
+                .save(pWriter, Tenebris.MODID + ":" + getItemName(hoe) + "_left");
+
+        // Right side
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, hoe)
+                .pattern("mm")
+                .pattern("s ")
+                .pattern("s ")
+                .define('m', material)
+                .define('s', stick)
+                .unlockedBy("has_" + materialName, inventoryTrigger(ItemPredicate.Builder.item().of(material).build()))
+                .save(pWriter, Tenebris.MODID + ":" + getItemName(hoe) + "_right");
     }
 }

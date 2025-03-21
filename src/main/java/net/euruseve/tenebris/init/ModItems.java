@@ -4,7 +4,7 @@ import net.euruseve.tenebris.Tenebris;
 
 import net.euruseve.tenebris.custom.items.Mirror;
 import net.euruseve.tenebris.custom.items.PinkWoolPainter;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -46,6 +46,38 @@ public class ModItems
             () ->  new Item(new Item.Properties().food(ModFoodProperties.CHERRY)));
 
 
+
+    // TOOLS
+
+    public static final RegistryObject<Item> IGNIONITE_SWORD
+            = ITEMS.register("ignionite_sword",
+            () ->  new SwordItem(ModToolTiers.IGNIONITE,
+                    4, 4,
+                    new Item.Properties().durability(512)));
+
+    public static final RegistryObject<Item> IGNIONITE_PICKAXE
+            = ITEMS.register("ignionite_pickaxe",
+            () ->  new PickaxeItem(ModToolTiers.IGNIONITE,
+                    1, 1,
+                    new Item.Properties().durability(512)));
+
+    public static final RegistryObject<Item> IGNIONITE_AXE
+            = ITEMS.register("ignionite_axe",
+            () ->  new AxeItem(ModToolTiers.IGNIONITE,
+                    3, 1,
+                    new Item.Properties().durability(512)));
+
+    public static final RegistryObject<Item> IGNIONITE_SHOVEL
+            = ITEMS.register("ignionite_shovel",
+            () ->  new ShovelItem(ModToolTiers.IGNIONITE,
+                    1, 1,
+                    new Item.Properties().durability(512)));
+
+    public static final RegistryObject<Item> IGNIONITE_HOE
+            = ITEMS.register("ignionite_hoe",
+            () ->  new HoeItem(ModToolTiers.IGNIONITE,
+                    1, 1,
+                    new Item.Properties().durability(512)));
 
 
     public static void register(IEventBus eventBus)

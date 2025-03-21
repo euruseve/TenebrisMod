@@ -2,6 +2,7 @@ package net.euruseve.tenebris.datagen;
 
 import net.euruseve.tenebris.Tenebris;
 import net.euruseve.tenebris.init.ModBlocks;
+import net.euruseve.tenebris.init.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -43,6 +44,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.IGNIONITE_ORE.get(),
                      ModBlocks.DEEPSLATE_IGNIONITE_ORE.get()
                 );
+
+        //this.tag(ModTags.Blocks.NEEDS_IGNIONITE_TOOL);
     }
 
     @Override

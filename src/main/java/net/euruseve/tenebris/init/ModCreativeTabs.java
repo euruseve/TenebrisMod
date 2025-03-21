@@ -38,6 +38,13 @@ public class ModCreativeTabs
                                 output.accept(ModBlocks.RAW_IGNIONITE_BLOCK.get());
                                 output.accept(ModBlocks.IGNIONITE_STAIRS.get());
                                 output.accept(ModBlocks.IGNIONITE_SLABS.get());
+
+                                // Tools
+                                output.accept(ModItems.IGNIONITE_SWORD.get());
+                                output.accept(ModItems.IGNIONITE_PICKAXE.get());
+                                output.accept(ModItems.IGNIONITE_AXE.get());
+                                output.accept(ModItems.IGNIONITE_SHOVEL.get());
+                                output.accept(ModItems.IGNIONITE_HOE.get());
                             })
                             .build());
 

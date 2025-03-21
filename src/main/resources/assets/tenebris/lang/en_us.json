@@ -19,6 +19,11 @@
   "block.tenebris.raw_ignionite_block": "Block of Raw Ignionite",
 
   "block.tenebris.ignionite_slab": "Ignionite Slab",
-  "block.tenebris.ignionite_stair": "Ignionite Stairs"
+  "block.tenebris.ignionite_stair": "Ignionite Stairs",
 
+  "item.tenebris.ignionite_sword": "Ignionite Sword",
+  "item.tenebris.ignionite_pickaxe": "Ignionite Pickaxe",
+  "item.tenebris.ignionite_axe": "Ignionite Axe",
+  "item.tenebris.ignionite_shovel": "Ignionite Shovel",
+  "item.tenebris.ignionite_hoe": "Ignionite Hoe"
 }

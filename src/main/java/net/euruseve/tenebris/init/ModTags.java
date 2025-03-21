@@ -25,6 +25,8 @@ public class ModTags
 
     public static class Blocks
     {
+        public static final TagKey<Block> NEEDS_IGNIONITE_TOOL = tag("needs_ignionite_tool");
+
         private static TagKey<Block> tag(String name)
         {
             return BlockTags.create(new ResourceLocation(Tenebris.MODID, name));

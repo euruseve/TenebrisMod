@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "m": {
+      "item": "tenebris:ignionite_ingot"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "mm",
+    "sm",
+    "s "
+  ],
+  "result": {
+    "item": "tenebris:ignionite_axe"
+  },
+  "show_notification": true
+}
