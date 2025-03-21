@@ -45,6 +45,8 @@ public class ModCreativeTabs
                                 output.accept(ModItems.IGNIONITE_AXE.get());
                                 output.accept(ModItems.IGNIONITE_SHOVEL.get());
                                 output.accept(ModItems.IGNIONITE_HOE.get());
+                                output.accept(ModItems.IGNIONITE_PAXEL.get());
+                                output.accept(ModItems.IGNIONITE_HAMMER.get());
                             })
                             .build());
 

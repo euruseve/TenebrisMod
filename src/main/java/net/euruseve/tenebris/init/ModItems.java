@@ -2,7 +2,9 @@ package net.euruseve.tenebris.init;
 
 import net.euruseve.tenebris.Tenebris;
 
+import net.euruseve.tenebris.custom.items.HammerItem;
 import net.euruseve.tenebris.custom.items.Mirror;
+import net.euruseve.tenebris.custom.items.PaxelItem;
 import net.euruseve.tenebris.custom.items.PinkWoolPainter;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -76,6 +78,18 @@ public class ModItems
     public static final RegistryObject<Item> IGNIONITE_HOE
             = ITEMS.register("ignionite_hoe",
             () ->  new HoeItem(ModToolTiers.IGNIONITE,
+                    1, 1,
+                    new Item.Properties().durability(512)));
+
+    public static final RegistryObject<Item> IGNIONITE_PAXEL
+            = ITEMS.register("ignionite_paxel",
+            () ->  new PaxelItem(ModToolTiers.IGNIONITE,
+                    3, 1,
+                    new Item.Properties().durability(512)));
+
+    public static final RegistryObject<Item> IGNIONITE_HAMMER
+            = ITEMS.register("ignionite_hammer",
+            () ->  new HammerItem(ModToolTiers.IGNIONITE,
                     1, 1,
                     new Item.Properties().durability(512)));
 

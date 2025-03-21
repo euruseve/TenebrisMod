@@ -28,6 +28,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.IGNIONITE_AXE);
         handheldItem(ModItems.IGNIONITE_SHOVEL);
         handheldItem(ModItems.IGNIONITE_HOE);
+        handheldItem(ModItems.IGNIONITE_PAXEL);
+        handheldItem(ModItems.IGNIONITE_HAMMER);
 
         simpleItem(ModItems.GREEN_PEAR);
         simpleItem(ModItems.YELLOW_PEAR);

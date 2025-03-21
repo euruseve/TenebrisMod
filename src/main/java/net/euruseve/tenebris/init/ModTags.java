@@ -26,6 +26,7 @@ public class ModTags
     public static class Blocks
     {
         public static final TagKey<Block> NEEDS_IGNIONITE_TOOL = tag("needs_ignionite_tool");
+        public static final TagKey<Block> PAXEL_MINEABLE = tag("mineable/paxel");
 
         private static TagKey<Block> tag(String name)
         {

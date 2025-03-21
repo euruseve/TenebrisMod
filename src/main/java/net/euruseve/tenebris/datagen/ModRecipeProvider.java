@@ -118,6 +118,26 @@ public class ModRecipeProvider extends RecipeProvider {
 
         /// IGNIONITE HOE
         hoeRecipe(pWriter, ModItems.IGNIONITE_HOE.get(), ModItems.IGNIONITE_INGOT.get(), Items.STICK, "ignionite");
+
+        /// IGNIONITE PAXEL
+        paxelRecipe(pWriter, ModItems.IGNIONITE_PAXEL.get(),
+                ModItems.IGNIONITE_AXE.get(),
+                ModItems.IGNIONITE_PICKAXE.get(),
+                ModItems.IGNIONITE_SHOVEL.get(),
+                "ignionite");
+
+        /// IGNIONITE HAMMER
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.IGNIONITE_HAMMER.get())
+                .pattern("iii")
+                .pattern("iii")
+                .pattern(" s ")
+                .define('i', ModItems.IGNIONITE_INGOT.get())
+                .define('s', Items.STICK)
+                .unlockedBy("has_ignionite",
+                        inventoryTrigger(ItemPredicate.Builder.item()
+                                .of(ModItems.IGNIONITE_INGOT.get())
+                                .build()))
+                .save(pWriter);
     }
 
 
@@ -184,5 +204,14 @@ public class ModRecipeProvider extends RecipeProvider {
                 .define('s', stick)
                 .unlockedBy("has_" + materialName, inventoryTrigger(ItemPredicate.Builder.item().of(material).build()))
                 .save(pWriter, Tenebris.MODID + ":" + getItemName(hoe) + "_right");
+    }
+
+    protected static void paxelRecipe(Consumer<FinishedRecipe> pWriter, ItemLike paxel, ItemLike axe, ItemLike pickaxe, ItemLike shovel, String materialName) {
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.TOOLS, paxel)
+                .requires(axe)
+                .requires(pickaxe)
+                .requires(shovel)
+                .unlockedBy("has_" + materialName, inventoryTrigger(ItemPredicate.Builder.item().of(axe).build()))
+                .save(pWriter);
     }
 }

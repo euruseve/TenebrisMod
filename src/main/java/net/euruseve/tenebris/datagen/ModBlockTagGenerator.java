@@ -45,7 +45,11 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                      ModBlocks.DEEPSLATE_IGNIONITE_ORE.get()
                 );
 
-        //this.tag(ModTags.Blocks.NEEDS_IGNIONITE_TOOL);
+        this.tag(ModTags.Blocks.PAXEL_MINEABLE)
+                .addTags(BlockTags.MINEABLE_WITH_PICKAXE,
+                        BlockTags.MINEABLE_WITH_AXE,
+                        BlockTags.MINEABLE_WITH_SHOVEL
+                );
     }
 
     @Override

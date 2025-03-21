@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "tenebris:ignionite_axe"
+    },
+    {
+      "item": "tenebris:ignionite_pickaxe"
+    },
+    {
+      "item": "tenebris:ignionite_shovel"
+    }
+  ],
+  "result": {
+    "item": "tenebris:ignionite_paxel"
+  }
+}
