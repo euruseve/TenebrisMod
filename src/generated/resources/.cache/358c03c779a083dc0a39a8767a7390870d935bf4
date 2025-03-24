@@ -1,7 +1,18 @@
-// 1.20.1	2025-03-15T23:00:51.7507193	Item Models: tenebris
+// 1.20.1	2025-03-24T15:02:59.6472523	Item Models: tenebris
 f9e0b526b57ed07b9a5c5d9f99527e8c1c552760 assets/tenebris/models/item/cherry.json
 d4172a90f70dbbaf5b113e9f73625105b7639b05 assets/tenebris/models/item/green_pear.json
+04dd9cbd3769436a03f726e632961b2d69df4b41 assets/tenebris/models/item/ignionite_axe.json
+33a1f2c390c7e7dce5999ea7e8d0af91a164604f assets/tenebris/models/item/ignionite_boots.json
+8f434b9446de234a0d7d0ced0231326816acdc01 assets/tenebris/models/item/ignionite_chestplate.json
+7dd9e9f297d304c704f25e47e88ec658218e6a55 assets/tenebris/models/item/ignionite_hammer.json
+3e3f3b4b9f797d093b6ad2e0d6ab02ecc9171b7a assets/tenebris/models/item/ignionite_helmet.json
+1d4de05b815e5d37e97bbb8097217b19777d3020 assets/tenebris/models/item/ignionite_hoe.json
 2016934c19080c1969ae5be76f185397608a80bb assets/tenebris/models/item/ignionite_ingot.json
+48967dfeaf9ef5456ffd9dbea18c9ce34d294f5c assets/tenebris/models/item/ignionite_leggings.json
+bbc291adadf18d3f6d4d8e184e33db1be55119b2 assets/tenebris/models/item/ignionite_paxel.json
+9e430077467a1658c3bc4eb8f81a4746e8393a3d assets/tenebris/models/item/ignionite_pickaxe.json
+6e79cff0483b5b4f6d5893aae80c8e8949d5c73a assets/tenebris/models/item/ignionite_shovel.json
+2d1a16cb2222a7c416508213573aff0c9ccc75c5 assets/tenebris/models/item/ignionite_sword.json
 ff1cfd79b02d5616fdb30b01b3d294dca12b8f92 assets/tenebris/models/item/mirror.json
 587ec829ef6f03c0b8fbf5b72653c7872e0ff9b6 assets/tenebris/models/item/pink_wool_painter.json
 1daafb822365eae9f19c824733f44b823cdac8a3 assets/tenebris/models/item/raw_ignionite.json

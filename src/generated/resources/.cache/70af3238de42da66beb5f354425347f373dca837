@@ -1,4 +1,5 @@
-// 1.20.1	2025-03-17T20:05:54.1726295	Block Tags
+// 1.20.1	2025-03-21T11:34:52.8650223	Block Tags
 2547f1f6e5748720e58bdd74efba0c6538a35c1f data/minecraft/tags/blocks/mineable/pickaxe.json
 08e36bddca9c554ebbeeec3aff703a72be9b65af data/minecraft/tags/blocks/needs_diamond_tool.json
 b1d9732dbdfd47cfe8570bcbc892c184995b949d data/minecraft/tags/blocks/needs_iron_tool.json
+82362cfbd1836db13c7e9d36c8712821e795ac55 data/tenebris/tags/blocks/mineable/paxel.json

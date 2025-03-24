@@ -94,6 +94,34 @@ public class ModItems
                     new Item.Properties().durability(512)));
 
 
+
+    // Armor
+
+    public static final RegistryObject<Item> IGNIONITE_HELMET
+            = ITEMS.register("ignionite_helmet",
+            () -> new ArmorItem(ModArmorMaterials.IGNIONITE,
+                                ArmorItem.Type.HELMET,
+                                new Item.Properties()));
+
+    public static final RegistryObject<Item> IGNIONITE_CHESTPLATE
+            = ITEMS.register("ignionite_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.IGNIONITE,
+                                ArmorItem.Type.CHESTPLATE,
+                                new Item.Properties()));
+
+    public static final RegistryObject<Item> IGNIONITE_LEGGINGS
+            = ITEMS.register("ignionite_leggings",
+            () -> new ArmorItem(ModArmorMaterials.IGNIONITE,
+                                ArmorItem.Type.LEGGINGS,
+                                new Item.Properties()));
+
+    public static final RegistryObject<Item> IGNIONITE_BOOTS
+            = ITEMS.register("ignionite_boots",
+            () -> new ArmorItem(ModArmorMaterials.IGNIONITE,
+                                ArmorItem.Type.BOOTS,
+                                new Item.Properties()));
+
+
     public static void register(IEventBus eventBus)
     {
         ITEMS.register(eventBus);

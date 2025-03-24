@@ -47,6 +47,12 @@ public class ModCreativeTabs
                                 output.accept(ModItems.IGNIONITE_HOE.get());
                                 output.accept(ModItems.IGNIONITE_PAXEL.get());
                                 output.accept(ModItems.IGNIONITE_HAMMER.get());
+
+                                // Armor
+                                output.accept(ModItems.IGNIONITE_HELMET.get());
+                                output.accept(ModItems.IGNIONITE_CHESTPLATE.get());
+                                output.accept(ModItems.IGNIONITE_BOOTS.get());
+                                output.accept(ModItems.IGNIONITE_LEGGINGS.get());
                             })
                             .build());
 

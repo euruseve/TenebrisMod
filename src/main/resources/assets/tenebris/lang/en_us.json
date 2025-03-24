@@ -27,5 +27,10 @@
   "item.tenebris.ignionite_shovel": "Ignionite Shovel",
   "item.tenebris.ignionite_hoe": "Ignionite Hoe",
   "item.tenebris.ignionite_paxel": "Ignionite Paxel",
-  "item.tenebris.ignionite_hammer": "Ignionite Hammer"
+  "item.tenebris.ignionite_hammer": "Ignionite Hammer",
+
+  "item.tenebris.ignionite_helmet": "Ignionite Helmet",
+  "item.tenebris.ignionite_chestplate": "Ignionite Chestplate",
+  "item.tenebris.ignionite_leggings": "Ignionite Leggings",
+  "item.tenebris.ignionite_boots": "Ignionite Boots"
 }
